@@ -3,8 +3,25 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+.pre-commit-config.yaml
+
+#git
+.gitattributes
+
 # C extensions
 *.so
+
+#Database
+*.db
+
+#vscode
+.vscode/
+
+#pre-commit
+.pre-commit-config.yaml
+
+#pylint
+.pylintrc
 
 # Distribution / packaging
 .Python
